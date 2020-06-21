@@ -1,0 +1,63 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+
+.super {
+  font-size: 0.5em;
+  vertical-align: super;
+}
+.line-through {
+  text-decoration: line-through;
+  font-size: 0.857em;
+  color: $gray-400;
+}
+
+.h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  @include media-breakpoint-up(md) {
+    font-size: 3rem;
+  }
+}
+.h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+
+  @include media-breakpoint-up(md) {
+  }
+}
+
+.h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  @include media-breakpoint-up(md) {
+    font-size: 1.5rem;
+  }
+}
+.h5 {
+  font-weight: 700;
+  @include media-breakpoint-up(md) {
+  }
+}

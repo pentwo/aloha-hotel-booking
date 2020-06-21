@@ -1,0 +1,43 @@
+.sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 150px;
+  padding: 0 1rem;
+  background-color: $gray-300;
+
+  .h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    height: 320px;
+    .h2 {
+      font-size: 3rem;
+    }
+    .input-group {
+      width: 75%;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    .input-group {
+      width: 45%;
+    }
+  }
+}
+
+.sub.sub-sm .container {
+  flex-direction: row;
+  justify-content: space-between;
+  height: 104px;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  .h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+}

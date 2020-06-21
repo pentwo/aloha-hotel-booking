@@ -1,0 +1,31 @@
+form.bookingSearch {
+  z-index: 11;
+  margin: -2rem auto 0 auto;
+  padding: 1.5rem;
+  background-color: $gray-300;
+  border-radius: 8px;
+  position: relative;
+
+  margin-bottom: 3rem;
+  @include media-breakpoint-up(md) {
+    max-width: 570px;
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 920px;
+    margin-bottom: 4rem;
+  }
+}
+
+.nav-cities {
+  border: 0;
+
+  .nav-link {
+    border: 0;
+    border-bottom: 2px solid $gray-300;
+    color: $gray-600;
+  }
+  .nav-link.active {
+    color: $primary;
+    border-bottom: 2px solid $primary;
+  }
+}

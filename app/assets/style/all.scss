@@ -1,0 +1,13 @@
+@import '../../../node_modules/bootstrap/scss/functions';
+@import 'variable'; // 變數
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+@import './components/card';
+@import './components/pagination';
+@import './components/subscribe';
+@import './components/swiper';
+
+@import 'base'; // 全站設定
+@import 'layout';
+@import 'index';

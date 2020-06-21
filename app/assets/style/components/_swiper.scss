@@ -1,0 +1,45 @@
+@import '../../../../node_modules/swiper/src/swiper.scss';
+@import '../../../../node_modules/swiper/components/navigation/navigation.scss';
+
+.hero.swiper-container {
+  height: 380px;
+  z-index: 1;
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+
+    background: url('../images/index-banner.jpg') no-repeat center center;
+    background-size: cover;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    --swiper-navigation-color: #fff;
+    --swiper-navigation-size: 24px;
+    @include media-breakpoint-up(md) {
+      --swiper-navigation-size: 48px;
+    }
+  }
+  .swiper-button-prev {
+    left: 5%;
+    @include media-breakpoint-up(md) {
+    }
+    @include media-breakpoint-up(lg) {
+      left: 15%;
+    }
+  }
+  .swiper-button-next {
+    right: 5%;
+    @include media-breakpoint-up(md) {
+    }
+    @include media-breakpoint-up(lg) {
+      right: 15%;
+    }
+  }
+}
+
+.topChoices.swiper-container {
+}
