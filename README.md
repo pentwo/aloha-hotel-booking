@@ -9,4 +9,5 @@ A Mocking Hotel Booking Site.
 # Finishing Link
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f2425f42-80a6-4c00-b7e4-ed0ab7250326/deploy-status)](https://app.netlify.com/sites/steven-aloha-booking-site/deploys)
+
 [Aloha Hotel Booking Website](https://steven-aloha-booking-site.netlify.app/)
